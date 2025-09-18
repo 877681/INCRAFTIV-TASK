@@ -16,7 +16,7 @@ Routing Approach: Demonstrated the use of Route::resource for streamlined RESTfu
 
 3. Blade Templating
 
-Layout: Designed a reusable layout.blade.php with @yield and @section directives to create a consistent structure across views.
+Layout: Designed a reusable layout.blade.php with $slot and header var to create a consistent structure across views.
 View Extension: Extended the base layout in child views for modular and maintainable templating.
 Dynamic Display: Used @foreach to render a list of users dynamically in the view, ensuring a clean and user-friendly interface.
 
@@ -34,7 +34,9 @@ password: Required, minimum 6 characters, confirmed with a matching password_con
 Data Storage: Saved validated data to the users table, with passwords securely hashed using Laravel's Hash facade.
 Command to Reset Database
 To reset the database and re-run all migrations, use the following command:
-bashphp artisan migrate:fresh
+##      bash
+        php artisan migrate:fresh
+
 Note: This command drops all tables and re-runs all migrations, erasing existing data. Use with caution in production environments.
 
 
