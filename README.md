@@ -1,6 +1,4 @@
 
-<img width="1915" height="955" alt="image" src="https://github.com/user-attachments/assets/72f5096f-5433-4e70-acd9-246c7ee6457f" />
-
 
 About the Application
 This is a Laravel-based CRUD application demonstrating core web development features, including database operations, routing, form handling, and Blade templating. Below is an overview of the implemented functionalities:
